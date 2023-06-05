@@ -38,4 +38,4 @@ client.on("interactionCreate", interaction => {
     }
 });
 
-client.login("MTExNTAzMDExMzA4MDMyNDExNg.GejWYl.Eb9jAHMaUhutyCttvPTEVSzm9VR-8wAecQJyVA");
+client.login("LE_TOCKEN");
