@@ -18,9 +18,7 @@ const pingpong = new SlashCommandBuilder()
     .setDescription("Fait la commande pour le savoir :)");
 
 client.on("ready", () => {
-    client.guilds.cache.get("1115037107694616626").commands.create(cmdsk2000);
-    client.guilds.cache.get("1115037107694616626").commands.create(pingpong);
-
+    client.application.commands.set([cmdsk2000.toJSON(), pingpong.toJSON()]);
     console.log("Bot OK !");
 });
 
@@ -38,4 +36,4 @@ client.on("interactionCreate", interaction => {
     }
 });
 
-client.login("LE_TOCKEN");
+client.login("_____token______");
