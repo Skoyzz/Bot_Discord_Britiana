@@ -1,4 +1,4 @@
-#Bot Discord Britiana
+#Bot_Discord_Britiana
 - Bot Discord pour un serveur communautaire minecraft en Java Script
 
 Commande actuellement développer :
