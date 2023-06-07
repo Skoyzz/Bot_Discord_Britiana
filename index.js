@@ -8,7 +8,8 @@ const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
         GatewayIntentBits.GuildMessages,
-        GatewayIntentBits.MessageContent
+        GatewayIntentBits.MessageContent,
+        GatewayIntentBits.GuildVoiceStates
     ]
 });
 
@@ -92,5 +93,3 @@ client.on('interactionCreate', async interaction => {
         }
     }
 });
-
-client.login("mettre_le_token_du_bot");
