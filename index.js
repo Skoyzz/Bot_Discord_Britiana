@@ -15,6 +15,7 @@ const client = new Client({
 
 client.once('ready', () => {
   console.log('Le bot est prêt !');
+  client.user.setActivity('Développé par Skoyzz'); // Ajout de l'activité
 });
 
 const cmdsk2000 = new SlashCommandBuilder()
